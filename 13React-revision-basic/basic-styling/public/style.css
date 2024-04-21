@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, pink,lightyellow);
+    
+}
+h1{
+    color: darkslateblue;
+    text-align: center;
+}
+
+.image-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+#image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #333;
+}
